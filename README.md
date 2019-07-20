@@ -7,27 +7,32 @@ Other Resoources
 Setup
 
 ## Objective
-Create two new GitHub repositories and name them Bootstrap-Portfolio and Responsive-Portfolio.
 
-Clone these repositories to your computer.
+The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters.
 
-Assignment One Instructions (Bootstrap)
-Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
+Here’s how the app works:
 
-Using Bootstrap, recreate your portfolio site with the following items:
+There will be four crystals displayed as buttons on the page.
 
-A navbar
+The player will be shown a random number at the start of the game.
 
-A responsive layout (remember the grid, rows and columns are your friends)
+When the player clicks on a crystal, it will add a specific amount of points to the player’s total score.
 
-eg. On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
-Responsive images
+Your game will hide this amount until the player clicks a crystal.
+When they do click one, update the player’s score counter.
+The player wins if their total score matches the random number from the beginning of the game.
 
-BONUS Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation)
+The player loses if their score goes above the random number.
 
-Your Bootstrap solution should minimize use of media queries.
+The game restarts whenever the player wins or loses.
 
-Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user’s score (and score counter) will reset to zero.
+The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+
+Option 1 Game design notes
+The random number shown at the start of the game should be between 19 - 120.
+
+Each crystal should have a random hidden value between 1 - 12.
 
 ## Techologies
 
@@ -35,6 +40,7 @@ backend:
 - [ ] HTML5
 - [ ] CSS3
 - [ ] JavaScript
+- [ ] JQuery
 
 frontend:
 
@@ -42,7 +48,7 @@ frontend:
 design:
 
 ## Other resources
-- [ ] Bootstrap
+
 
 # Setup
 
